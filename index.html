@@ -1,109 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Welcome to Dunamis Nexus, a hub for gamers and nerds who love God and His Word." />
-  <title>Dunamis Nexus</title>
-  <link rel="icon" type="image/png" href="/media/favicon.png" />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #1a1a1a;
-      color: #f0f0f0;
-    }
-
-    header {
-      background-color: #222;
-      padding: 1rem 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      color: #ffffff;
-    }
-
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      text-align: center;
-    }
-
-    .button-group {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .button {
-      background-color: #4a90e2;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
-
-    .button:hover {
-      background-color: #357ab8;
-    }
-
-    footer {
-      margin-top: 4rem;
-      padding: 1rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #888;
-    }
-
-    @media (max-width: 600px) {
-      .button {
-        width: 100%;
-        text-align: center;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunamis Nexus - Building Community Through Faith and Gaming</title>
+    <meta name="description" content="Welcome to Dunamis Nexus, a hub for gamers and nerds who love God and His Word.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/media/favicon.png" />
 </head>
 <body>
-  <header>
-    <h1>Welcome To Dunamis Nexus</h1>
-  </header>
-<img src="media/logo1.png" alt="Dunamis Nexus Logo" style="display: block; margin: 1rem auto 0; max-width: 200px; height: auto;" />
-  <main>
-    <p>Building Community Through Faith and Gaming. </p>
-    <p>"Therefore encourage one another and build one another up, just as you are doing." 1 Thessalonians 5:11 -ESV</p>
-    <div class="button-group">
-      <a href="https://forum.dunamisnexus.net" class="button" target="_blank">Visit the Forum</a>
-      <a href="https://social.dunamisnexus.net/about" class="button" target="_blank">Join us on Mastodon</a>
-      <a href="https://ko-fi.com/dunamisnexus" class="button" target="_blank">Buy us a Coffee</a>
-      <a href="https://store.dunamisnexus.net" class="button" target="_blank">Official Merch</a>
-    </div>
-  </main>
+    <div id="top"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#top">
+                    <img src="media/logo1.png" alt="Dunamis Nexus Logo" class="nav-logo">
+                </a>
+                <span class="nav-title">Dunamis Nexus</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="https://lan.dunamisnexus.net" target="_blank" class="lan-link">LAN Events</a></li>
+                <li><a href="https://forum.dunamisnexus.net" target="_blank">Forum</a></li>
+                <li><a href="https://discord.gg/vbGcxAVZaB" target="_blank" class="discord-link">Discord</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<section style="margin-top: 3rem;">
-  <h2 style="font-size: 1.5rem; margin-bottom: 1rem; text-align: center;">Community Calendar</h2>
-  <div style="display: flex; justify-content: center;">
-    <iframe 
-      src="https://calendar.google.com/calendar/embed?src=dunamisnexus%40gmail.com&ctz=America%2FNew_York" 
-      style="border: 0" 
-      width="800" 
-      height="600" 
-      frameborder="0" 
-      scrolling="no">
-    </iframe>
-  </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Dunamis Nexus</h1>
+            <p class="tagline">Building Community Through Faith and Gaming</p>
+            <p class="verse">"Therefore encourage one another and build one another up, just as you are doing."<br>1 Thessalonians 5:11 (ESV)</p>
+            <div class="hero-buttons">
+                <a href="#community" class="btn btn-primary">Join the Community</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
 
-  <footer>
-    &copy; 2025 Dunamis Nexus. All rights reserved.
-  </footer>
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2>About Dunamis Nexus</h2>
+            <div class="about-content">
+                <p>Welcome to Dunamis Nexus, a vibrant community where faith meets gaming. We're a hub for gamers and nerds who love God and His Word, bringing together believers from all walks of life who share a passion for gaming, fellowship, and growing in faith together.</p>
+                <p>Whether you're into competitive esports, casual gaming, tabletop RPGs, or just hanging out with like-minded believers, you'll find a home here. Our community spans multiple platforms and hosts regular events, including LAN parties, online gaming sessions, and faith-based discussions.</p>
+                <div class="mission-cards">
+                    <div class="mission-card">
+                        <div class="mission-icon">🎮</div>
+                        <h3>Gaming Together</h3>
+                        <p>Connect with fellow believers who share your passion for gaming across all platforms and genres.</p>
+                    </div>
+                    <div class="mission-card">
+                        <div class="mission-icon">✝️</div>
+                        <h3>Faith Community</h3>
+                        <p>Grow in your walk with Christ through fellowship, encouragement, and Biblical discussions.</p>
+                    </div>
+                    <div class="mission-card">
+                        <div class="mission-icon">🤝</div>
+                        <h3>Building Bridges</h3>
+                        <p>Create meaningful relationships that extend beyond the screen into lasting friendships.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Links Section -->
+    <section id="community" class="section community-section">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p class="section-subtitle">Connect with us across multiple platforms</p>
+            <div class="links-grid">
+                <a href="https://forum.dunamisnexus.net" target="_blank" class="link-card">
+                    <div class="link-icon">📝</div>
+                    <h3>Forum</h3>
+                    <p>Join discussions, share strategies, and connect with community members</p>
+                </a>
+                <a href="https://discord.gg/vbGcxAVZaB" target="_blank" class="link-card">
+                    <div class="link-icon">💬</div>
+                    <h3>Discord</h3>
+                    <p>Real-time chat, voice channels, and gaming sessions</p>
+                </a>
+                <a href="https://social.dunamisnexus.net/about" target="_blank" class="link-card">
+                    <div class="link-icon">🐘</div>
+                    <h3>Mastodon</h3>
+                    <p>Follow us on the Fediverse for updates and community posts</p>
+                </a>
+                <a href="https://lan.dunamisnexus.net" target="_blank" class="link-card highlight-card">
+                    <div class="link-icon">🎯</div>
+                    <h3>LAN Events</h3>
+                    <p>Join our in-person gaming events and tournaments</p>
+                </a>
+                <a href="https://ko-fi.com/dunamisnexus" target="_blank" class="link-card">
+                    <div class="link-icon">☕</div>
+                    <h3>Ko-fi</h3>
+                    <p>Support our community and events</p>
+                </a>
+                <a href="https://store.dunamisnexus.net" target="_blank" class="link-card">
+                    <div class="link-icon">🛍️</div>
+                    <h3>Merch Store</h3>
+                    <p>Official Dunamis Nexus merchandise</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendar" class="section calendar-section">
+        <div class="container">
+            <h2>Community Calendar</h2>
+            <p class="section-subtitle">Stay updated with upcoming events, gaming sessions, and community gatherings</p>
+            <div class="calendar-container">
+                <iframe 
+                    src="https://calendar.google.com/calendar/embed?src=dunamisnexus%40gmail.com&ctz=America%2FNew_York" 
+                    style="border: 0" 
+                    width="100%" 
+                    height="600" 
+                    frameborder="0" 
+                    scrolling="no">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="https://forum.dunamisnexus.net" target="_blank">Forum</a>
+                    <a href="https://discord.gg/vbGcxAVZaB" target="_blank">Discord</a>
+                    <a href="https://lan.dunamisnexus.net" target="_blank">LAN Events</a>
+                    <a href="https://ko-fi.com/dunamisnexus" target="_blank">Support Us</a>
+                </div>
+                <p>&copy; 2025 Dunamis Nexus. All rights reserved.</p>
+                <p>Building Community Through Faith and Gaming.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
