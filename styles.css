@@ -149,6 +149,11 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, var(--bg-darker) 0%, #1a1a2e 100%);
+    background-image: 
+        linear-gradient(135deg, rgba(10, 10, 10, 0.5) 0%, rgba(26, 26, 46, 0.5) 100%),
+        url('images/hero-bg.jpg'); /* ADD YOUR HERO IMAGE */
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     margin-top: 70px;
     padding: 2rem;
